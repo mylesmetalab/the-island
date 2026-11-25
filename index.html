@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Island</title>
+  <script type="module" crossorigin src="./assets/main-B4supXQV.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/pieces-VztMjG2c.js">
+  <link rel="stylesheet" crossorigin href="./assets/main-BrM8LWq-.css">
+</head>
+<body>
+  <div id="stage"></div>
+
+  <header class="top">
+    <b>The Island</b>
+    <span id="status">loading…</span>
+    <button id="undo" class="hbtn" disabled title="Undo (⌘Z)">↶</button>
+    <button id="redo" class="hbtn" disabled title="Redo (⇧⌘Z)">↷</button>
+    <a class="hlink" href="./board.html" title="Compare with the reference and see every piece on its own">Board</a>
+  </header>
+  <div class="fps" id="fps"></div>
+  <div class="clock" id="clock"><span></span></div>
+  <div class="inspect" id="inspect" hidden></div>
+
+  <nav class="tools" id="tools" aria-label="Build tools"></nav>
+
+  <aside class="panel" id="panel" aria-label="Island settings"></aside>
+
+  <figure class="ref" id="ref" title="The original reference — click to enlarge">
+    <img src="ref/reference.jpg" alt="Original island reference" onerror="this.closest('figure').classList.add('missing')" />
+    <figcaption>Reference</figcaption>
+  </figure>
+
+  <img class="compare" id="compare" src="ref/reference.jpg" alt="" hidden />
+  <div class="tints" id="tints" hidden></div>
+  <div class="substrip" id="substrip" hidden></div>
+  <div class="hint" id="hint"></div>
+  <div class="fpcard" id="fp" hidden></div>
+  <div class="together" id="together" hidden></div>
+  <div class="tags" id="tags"></div>
+  <div class="chatlog" id="chatlog" hidden></div>
+  <input class="chatin" id="chatin" hidden maxlength="200" placeholder="Say something… (Enter to send, Esc to cancel)" />
+  <div class="recording" id="recording" hidden>
+    <div><b>Recording a looping video</b><span id="recording-msg"></span><button id="recording-cancel">Cancel</button></div>
+  </div>
+</body>
+</html>
