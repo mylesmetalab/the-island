@@ -1,0 +1,187 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15807,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 5568,
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 5568,
+      "max": [
+        32767,
+        32087,
+        32083
+      ],
+      "min": [
+        -32767,
+        -32087,
+        -32083
+      ],
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 4
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 5568,
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 12
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 31616,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31616,
+      "byteLength": 89088,
+      "byteStride": 16,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Color_32b8f1ef-17a1-46be-826f-8de912c16883",
+      "mimeType": "image/webp",
+      "uri": "baseColor_1.webp"
+    },
+    {
+      "name": "ORM_32b8f1ef-17a1-46be-826f-8de912c16883",
+      "mimeType": "image/webp",
+      "uri": "metallicRoughness_1.webp"
+    },
+    {
+      "name": "NormalGL_32b8f1ef-17a1-46be-826f-8de912c16883",
+      "mimeType": "image/webp",
+      "uri": "normal_1.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "roundtree-3.bin",
+      "byteLength": 120704
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_material_32b8f1ef-17a1-46be-826f-8de912c16883",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tripo_mesh_32b8f1ef-17a1-46be-826f-8de912c16883",
+      "extras": {
+        "name": "tripo_mesh_32b8f1ef-17a1-46be-826f-8de912c16883"
+      },
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "tripo_node_32b8f1ef-17a1-46be-826f-8de912c16883",
+      "translation": [
+        0,
+        0.00006103701895199265,
+        0.0011902218695638567
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_mesh_quantization"
+  ]
+}

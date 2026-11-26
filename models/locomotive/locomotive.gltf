@@ -1,0 +1,187 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 21834,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 5897,
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 5897,
+      "max": [
+        32767,
+        27983,
+        19138
+      ],
+      "min": [
+        -32767,
+        -27983,
+        -19138
+      ],
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 4
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 5897,
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 12
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 43668,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43668,
+      "byteLength": 94352,
+      "byteStride": 16,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Color_07b64aa6-1393-4657-a705-5d2be3ec91b3",
+      "mimeType": "image/webp",
+      "uri": "baseColor_1.webp"
+    },
+    {
+      "name": "ORM_07b64aa6-1393-4657-a705-5d2be3ec91b3",
+      "mimeType": "image/webp",
+      "uri": "metallicRoughness_1.webp"
+    },
+    {
+      "name": "NormalGL_07b64aa6-1393-4657-a705-5d2be3ec91b3",
+      "mimeType": "image/webp",
+      "uri": "normal_1.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "locomotive.bin",
+      "byteLength": 138020
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_material_07b64aa6-1393-4657-a705-5d2be3ec91b3",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tripo_mesh_07b64aa6-1393-4657-a705-5d2be3ec91b3",
+      "extras": {
+        "name": "tripo_mesh_07b64aa6-1393-4657-a705-5d2be3ec91b3"
+      },
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "tripo_node_07b64aa6-1393-4657-a705-5d2be3ec91b3",
+      "translation": [
+        0.0001220740379039853,
+        0,
+        0.00021362956633202979
+      ],
+      "scale": [
+        0.499877925962096,
+        0.499877925962096,
+        0.499877925962096
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_mesh_quantization"
+  ]
+}
